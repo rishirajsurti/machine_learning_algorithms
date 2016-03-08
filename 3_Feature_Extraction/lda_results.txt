@@ -1,0 +1,17 @@
+Call:
+lda(train.labels$V1 ~ train$V1 + train$V2 + train$V3)
+
+Prior probabilities of groups:
+  1   2 
+0.5 0.5 
+
+Group means:
+   train$V1 train$V2 train$V3
+1 0.9877487 1.996655 2.979607
+2 0.9877487 1.996655 4.479607
+
+Coefficients of linear discriminants:
+               LD1
+train$V1 -4.488881
+train$V2 -1.840375
+train$V3  6.119457
